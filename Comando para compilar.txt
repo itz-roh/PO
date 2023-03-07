@@ -1,0 +1,3 @@
+javac -cp po-uilib.jar:. `find ggc -name "*.java"`
+java -cp po-uilib.jar:. ggc.app.App
+java -cp po-uilib.jar:. -Dimport=test.import -Din=test.in -Dout=test.outhyp woo.app.App
